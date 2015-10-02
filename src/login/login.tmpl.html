@@ -1,0 +1,26 @@
+<div ng-controller="LoginCtrl">
+    <h1>{{title}}</h1>
+    <form name="loginform" ng-submit="getFullName()">
+        UserName:
+        <br>
+        <input type="text" name="uname" ng-model="uname" ng-minlength="6" ng-maxlength="16">
+        <br>
+
+        <div role="alert">
+            <span class="error" ng-show="loginform.uname.$error.minlength">
+                Your name is required to be at least 6 characters</span>
+        </div>
+        <div role="alert">
+            <span class="error" ng-show="loginform.uname.$error.maxlength">
+                Your name is required to be at most 16 characters</span>
+        </div>
+        Password:
+        <br>
+        <input type="password" name="password" ng-model="pass" ng-minlength="6">
+        <br>
+        <br>
+        <input type="button" name="Submit" value="Submit">
+        <pre>list={{list}}</pre>
+    </form>
+    
+</div>
