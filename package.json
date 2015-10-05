@@ -1,0 +1,37 @@
+{
+  "name": "yashcrm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "karma.conf.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "karma": "^0.13.10",
+    "jasmine-core": "^2.3.4",
+    "bower": "^1.5.3",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-jasmine": "^0.3.6",
+    "karma-mocha": "^0.2.0",
+    "phantomjs": "^1.9.18",
+    "chai": "^3.3.0",
+    "karma-phantomjs-launcher": "^0.2.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.3"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://prashanth212:venkatdinesh123@github.com/prashanth212/YashCRMAngular.git"
+  },
+  "author": "Prashanth Reddy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prashanth212/YashCRMAngular/issues"
+  },
+  "homepage": "https://github.com/prashanth212/YashCRMAngular#readme"
+}

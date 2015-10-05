@@ -1,0 +1,22 @@
+{
+  "name": "yashcrm",
+  "version": "1.0.0",
+  "homepage": "https://github.com/prashanth212/YashCRMAngular",
+  "authors": [
+    "prashanth212 <prashanth212reddy@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "angular-mocks": "~1.4.7",
+    "angular-bootstrap": "~0.13.4",
+    "angular-ui-router": "ui-router#~0.2.15"
+  }
+}
