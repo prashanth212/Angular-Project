@@ -14,5 +14,10 @@ angular.module('yashCRM', ["ui.router"])
             url: "/login",
             templateUrl: "login/login.tmpl.html"
         })
+        
+          .state('myaccounts', {
+            url: "/myaccounts",
+            templateUrl: "myaccount/myaccount.tmpl.html"
+        })
 
     })
