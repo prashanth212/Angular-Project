@@ -32,6 +32,6 @@ To run the project on server
 
 Then go to 
 
-> http://localhost:8000/src/#/main
+> http://localhost:8000/src/
 
 
