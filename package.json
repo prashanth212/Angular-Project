@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "karma": "^0.13.10",
+      "http-server": "^0.8.5",
     "jasmine-core": "^2.3.4",
     "bower": "^1.5.3",
     "karma-chai": "^0.1.0",
