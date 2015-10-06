@@ -33,10 +33,3 @@ describe('Main Page', function () {
         expect(state.templateUrl).to.equal('main/main.tmpl.html');
     }));
 });
-describe('login Page', function () {
-    it("should change to the login state", inject(function($state,$rootScope) {
-        $state.transitionTo('login');
-        $rootScope.$apply();
-        expect($state.current.name).toBe('login');
-    }));
-});
