@@ -14,7 +14,9 @@ To run the Project.
 
 > First install the Dependencies.  (Open the cmd as admin)
 
-> npm install
+> npm install -g bower (If Bower is not installed)
+
+>npm install
 
 > bower install
 
