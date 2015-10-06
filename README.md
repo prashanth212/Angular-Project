@@ -8,6 +8,6 @@ Open Git command shell
 
 Clone repository using below command
 
-git clone 
+git clone https://github.com/prashanth212/YashCRMAngular.git
 
 
