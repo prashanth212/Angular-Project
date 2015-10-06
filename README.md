@@ -6,7 +6,7 @@ Getting Started
 
 > Open Git command shell
 
-Clone repository using below command
+Clone repository using below command : 
 
 > git clone https://github.com/prashanth212/YashCRMAngular.git
 
