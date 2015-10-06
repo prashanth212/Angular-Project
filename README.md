@@ -26,4 +26,12 @@ To run the tests :
 
 > grunt watch  OR karma start
 
+To run the project on server
+
+>npm start
+
+Then go to 
+
+> http://localhost:8000/src/#/main
+
 
