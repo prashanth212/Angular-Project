@@ -15,6 +15,7 @@ To run the Project.
 > First install the Dependencies.  (Open the cmd as admin)
 
 > npm install
+
 > bower install
 
 To run the tests :
