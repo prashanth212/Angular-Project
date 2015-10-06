@@ -14,12 +14,24 @@ To run the Project.
 
 > First install the Dependencies.  (Open the cmd as admin)
 
-> npm install
+> npm install -g bower (If Bower is not installed globally)
+
+>npm install
 
 > bower install
 
 To run the tests :
 
+>npm install -g grunt-cli (If grunt-cli is not installed globally)
+
 > grunt watch  OR karma start
+
+To run the project on server
+
+>npm start
+
+Then go to 
+
+> http://localhost:8000/src/#/main
 
 
