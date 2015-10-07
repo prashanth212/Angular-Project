@@ -1,14 +1,21 @@
 'use strict';
 angular.module('yashCRM')
-.controller('LoginCtrl',function($scope){
-    $scope.title = "Welcome to Login Screen";
-	$scope.message = "hello";
-    $scope.value = 2;
-    
-    $scope.firstName = '';
-    $scope.lastName = '';
-    
-    $scope.getFullName = function(){
-        return $scope.firstName + ' ' + $scope.lastName;
-};
-});
+.controller('LoginCtrl',
+    ['$scope', '$rootScope', '$location', 'AuthenticationService',
+    function ($scope, $rootScope, $location, AuthenticationService) {
+        // reset login status
+        AuthenticationService.ClearCredentials();
+  
+        $scope.login = function () {
+            $scope.dataLoading = true;
+            AuthenticationService.Login($scope.username, $scope.password, function(response) {
+                if(response.success) {
+                    AuthenticationService.SetCredentials($scope.username, $scope.password);
+                    $location.path('/welcome');
+                } else {
+                    $scope.error = response.message;
+                    $scope.dataLoading = false;
+                }
+            });
+        };
+    }]);
