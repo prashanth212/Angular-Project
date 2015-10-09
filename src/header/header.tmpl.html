@@ -15,11 +15,14 @@
             </div>
             <div class="collapse navbar-collapse" ng-class="{'in' : !navCollapsed}">
                 <ul class="nav navbar-nav">
-                    <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#/home">
-                    <span class="fi-home">&nbsp;</span>
-                    Home</a></li>
-                    <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#/login">Login</a></li>
-                    <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#/myaccounts">My Accounts</a></li>
+                    <li>
+                        <a data-toggle="collapse" data-target=".navbar-collapse" ui-sref="main">
+                            <span class="fi-home">&nbsp;</span> Home
+                        </a>
+                    </li>
+                    <li><a data-toggle="collapse" data-target=".navbar-collapse" ui-sref="login">Login</a></li>
+                    <li><a data-toggle="collapse" data-target=".navbar-collapse" ui-sref="register">Register</a></li>
+                    <li><a data-toggle="collapse" data-target=".navbar-collapse" ui-sref="myaccounts">My Accounts</a></li>
                 </ul>
             </div>
 
